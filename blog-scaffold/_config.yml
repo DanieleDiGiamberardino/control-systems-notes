@@ -1,0 +1,29 @@
+title: Control Systems Notes
+description: >-
+  Appunti e spiegazioni sparse su controlli automatici, GNC, MPC e sistemi
+  dinamici. Note di studio personali, in continuo aggiornamento.
+author: Daniele Di Giamberardino
+
+# URL settings — aggiorna "control-systems-notes" con il nome reale del repo
+baseurl: "/control-systems-notes"
+url: "https://danieledigiamberardino.github.io"
+
+theme: minima
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+plugins:
+  - jekyll-feed
+
+permalink: /:year/:month/:day/:title/
+
+header_pages:
+  - about.md
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
